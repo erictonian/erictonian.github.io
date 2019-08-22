@@ -1,47 +1,62 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display|Open+Sans&display=swap" rel="stylesheet">
 </head>
-
 <body>
-<h1>Eric Tonian</h1>
-<img src="https://placehold.it/200x200">
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos animi repellat dicta, dolor nesciunt suscipit nemo doloremque vero? Facere placeat quasi at autem sapiente accusamus, iste rem consequatur et natus?</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, esse ut dolores aperiam ipsa in quos tempore deserunt eum dolore? Reiciendis delectus, aut aspernatur voluptatum recusandae modi quasi officia laboriosam.</p>
-<ul>
-  <li><b>Email: </b><a href="mailto:erictonian@gmail.com">erictonian@gmail.com</a></li>
-  <li><b>GitHub: </b><a href="https://github.com/erictonian">erictonian</a></li>
-  <li><b>LinkedIn: </b><a href="https://linkedin.com/in/erictonian">erictonian</a></li>
-</ul>
-
-<table>
-  <thead>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Spirits</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Gravity's Rainbow</td>
-      <td>Big Lebowski</td>
-      <td>Campari</td>
-    </tr>
-    <tr>
-      <td>Grendel</td>
-      <td>Akira</td>
-      <td>Evan Williams Bonded</td>
-    </tr>
-    <tr>
-      <td>Either/Or</td>
-      <td>Shrek</td>
-      <td>Nikka From the Barrel</td>
-    </tr>
-  </tbody>
-</table>
+    <nav>
+        <div class="name-container"><h1>KEENAN MCDONALD</h1></div>
+        <ul>
+            <li><a class='jump projects' href='#projects'>PROJECTS</a></li>
+            <li><a class='jump bio' href='#bio'>BIO</a></li>
+            <li><a class='jump contact' href='#contact'>CONTACT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="hero">
+            <h1 class="my-name">KEENAN McDONALD</h1>
+            <p class="headline">I'm a web developer and adventure guide based in Austin, TX</p>
+        </section>
+        <div class="border"></div>
+        <section id="projects">
+            <h2>PROJECTS</h2>
+            <ul class="project-list">
+            </ul>
+        </section>
+        <div class="border"></div>
+        <section id="bio">
+            <h2>BIO</h2>
+            <p class="bio-text">
+                I'm a web developer working on completing a Full Stack Web Development 
+                bootcamp at Thinkful. I started coding at a young age but took a break to pursue my other 
+                passions in my early 20's. I'm excited to come back to more technical pursuits as I work 
+                to develop new skills as a coder and web developer. I'm especially interested in developing 
+                products at the intersection of technology and the outdoors.
+            </p>
+            <p class="bio-text">
+                In my spare time, you can find me rock climbing throughout the U.S. and abroad. 
+                I'm an avid mountaineer, mountain biker, caver, and kayaker as well. I have spent 
+                years in the outdoor education field working to get more kids spending time outside. 
+                In addition to outdoor pursuits, I am a musician and create ambient music using a 
+                modular synthesizer.
+            </p>
+        </section>
+        <div class='border'></div>
+        <section id="contact">
+            <h2>CONTACT</h2>
+            <ul>
+                <li><a href="mailto:keenanjmcdonald@gmail.com">email</a></li>
+                <li><a href="https://www.linkedin.com/in/keenan-mcdonald-4513b54b/">linkedin</a></li>
+                <li><a href="https://www.instagram.com/keenanmcd/?hl=en">instagram</a></li>
+                <li><a href="https://github.com/keenanmcdonald">github</a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
-
 </html>
